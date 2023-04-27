@@ -8,31 +8,32 @@
 - Pillow 9.3.0
 
 ### Как запустить проект
-Клонировать репозиторий и перейти в него в командной строке:
-```
-git clone https://git@github.com:DmitryOstrovskiy/api_yatube.git
-```
-cd api_yatube
-```
-Cоздать и активировать виртуальное окружение:
-```
-python3 -m venv env
-```
-source venv/Scripts/activate
-```
-Установить зависимости из файла requirements.txt:
-```
-python -m pip install --upgrade pip
-```
-pip install -r requirements.txt
-```
-Выполнить миграции:
-```
-python manage.py migrate
-```
-Запустить проект:
-```
-python manage.py runserver
+
+- Клонировать репозиторий и перейти в него в командной строке:
+
+```git clone https://git@github.com:DmitryOstrovskiy/api_yatube.git```
+
+```cd api_yatube```
+
+- Cоздать и активировать виртуальное окружение:
+
+```python3 -m venv env```
+
+```source venv/Scripts/activate```
+
+- Установить зависимости из файла requirements.txt:
+
+```python -m pip install --upgrade pip```
+
+```pip install -r requirements.txt```
+
+- Выполнить миграции:
+
+```python manage.py migrate```
+
+- Запустить проект:
+
+```python manage.py runserver```
 
 ### Примеры запросов к API
 _Запрос GET:_
